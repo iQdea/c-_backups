@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков\Rule">
+      <UniqueIdentifier>{e51dc6a3-1db5-46ad-8adc-880da867f32a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Storage">
+      <UniqueIdentifier>{bb2463bd-6bba-400e-9c25-e62a3c27057f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\RestorePoint">
+      <UniqueIdentifier>{f3a6e46f-4e6a-4bc4-8431-46e305dbb17a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Config">
+      <UniqueIdentifier>{763171e1-95dc-4ed7-bdfc-17c1ae587985}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\File">
+      <UniqueIdentifier>{038bb082-3203-4511-8c5b-8580f75d1f2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Config">
+      <UniqueIdentifier>{8f6d97ed-bac4-4fc2-afdc-be6df524533e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Config.cpp">
+      <Filter>Исходные файлы\Config</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Test.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Backup.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Rule.h">
+      <Filter>Файлы заголовков\Rule</Filter>
+    </ClInclude>
+    <ClInclude Include="RuleCombo.h">
+      <Filter>Файлы заголовков\Rule</Filter>
+    </ClInclude>
+    <ClInclude Include="RuleCount.h">
+      <Filter>Файлы заголовков\Rule</Filter>
+    </ClInclude>
+    <ClInclude Include="RuleDate.h">
+      <Filter>Файлы заголовков\Rule</Filter>
+    </ClInclude>
+    <ClInclude Include="RuleSize.h">
+      <Filter>Файлы заголовков\Rule</Filter>
+    </ClInclude>
+    <ClInclude Include="Storage.h">
+      <Filter>Файлы заголовков\Storage</Filter>
+    </ClInclude>
+    <ClInclude Include="StorageArchive.h">
+      <Filter>Файлы заголовков\Storage</Filter>
+    </ClInclude>
+    <ClInclude Include="StorageSeparate.h">
+      <Filter>Файлы заголовков\Storage</Filter>
+    </ClInclude>
+    <ClInclude Include="RestorePoint.h">
+      <Filter>Файлы заголовков\RestorePoint</Filter>
+    </ClInclude>
+    <ClInclude Include="Config.h">
+      <Filter>Файлы заголовков\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="Param.h">
+      <Filter>Файлы заголовков\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="File.h">
+      <Filter>Файлы заголовков\File</Filter>
+    </ClInclude>
+    <ClInclude Include="FileList.h">
+      <Filter>Файлы заголовков\File</Filter>
+    </ClInclude>
+    <ClInclude Include="FileSystem.h">
+      <Filter>Файлы заголовков\File</Filter>
+    </ClInclude>
+    <ClInclude Include="RestorePointFull.h">
+      <Filter>Файлы заголовков\RestorePoint</Filter>
+    </ClInclude>
+    <ClInclude Include="RestorePointInc.h">
+      <Filter>Файлы заголовков\RestorePoint</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
